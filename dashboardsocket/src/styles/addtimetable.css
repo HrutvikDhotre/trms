@@ -1,0 +1,99 @@
+/* src/Timetable.css
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+/* .container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+} */
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+} */
+
+.class-dropdown {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+    /* font-weight: bold; */
+    color: #555;
+}
+
+select {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.save-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+    /* Add margin-top to create space above the button */
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}
+
+.global-error {
+    color: red;
+    /* or any color you prefer for error messages */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.success-message {
+    color: green;
+    /* or any color you prefer for success messages */
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    /* or any color you prefer for success messages */
+    margin-top: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.subSideBar {
+    overflow: auto;
+}
+
+
+@media screen and (max-width : 992px) {
+   
+}
+
+@media screen and (max-width : 768px) {
+    .subSideBar {
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width : 576px) {
+    .subSideBar {
+        overflow: auto;
+    }
+}
+
+/* <576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px */

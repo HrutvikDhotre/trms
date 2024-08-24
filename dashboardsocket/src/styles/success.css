@@ -1,0 +1,47 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    /* font-family: Arial, sans-serif; */
+    /* Change font to sans-serif */
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    /* Make header bold */
+    margin-bottom: 20px;
+}
+
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.details-table th,
+.details-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.details-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+    font-weight: bold;
+    /* Make headings bold */
+}
+
+.details-table td.details-value {
+    font-style: normal;
+    /* Remove italic style */
+}
+
+.roll-numbers {
+    list-style: none;
+    padding: 0;
+}
+
+.roll-numbers li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,137 @@
+/* FileStorageSystem.css */
+.file-storage-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    /* background-color: blue; */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .upload-button:hover {
+    background-color: darkblue;
+} */
+
+.file-list {
+    margin-top: 20px;
+}
+
+.file-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+}
+
+.file-preview {
+    width: 50px;
+    /* Adjust icon size as needed */
+    height: 50px;
+    /* Adjust icon size as needed */
+    margin-right: 10px;
+}
+
+.file-preview img {
+    width: 100%;
+    height: 100%;
+}
+
+.file-name {
+    margin: 0;
+    font-size: 14px;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 35%;
+}
+
+.confirm-button,
+.cancel-button {
+    margin: 0 10px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirm-button {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.cancel-button {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.confirm-button:hover,
+.cancel-button:hover {
+    opacity: 0.8;
+}
+
+
+.download-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* Add space to the right */
+}
+
+.download-button:hover {
+    background-color: darkgreen;
+}
+
+.error-message {
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+}

@@ -1,0 +1,55 @@
+/* GroupListForm.css */
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    /* Center the form container horizontally */
+}
+
+.form-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group select,
+.form-group input[type="text"],
+.form-group input[type="number"] {
+    width: calc(100% - 40px);
+    /* Adjust width as needed */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Ensure padding is included in the width */
+    margin: 0 auto;
+    /* Center the form fields within the container */
+    display: block;
+    /* Ensure each field takes up the full width */
+}
+
+.grplist-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* button:hover {
+    background-color: #0056b3;
+} */
+
+.error-message {
+    color: red;
+}

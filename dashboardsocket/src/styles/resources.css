@@ -1,0 +1,131 @@
+input {
+    /* width: 100%; */
+    height: 45px;
+    padding: 8px;
+    /* margin-bottom: 1rem; */
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+    outline: none;
+    border: 0.1px solid rgb(212, 212, 212);
+}
+
+.hallContainer {
+    display: flex;
+    /* width: ; */
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.hallContainer>* {
+    flex-basis: 100%;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .searchContainer form > div{
+    flex-basis: 1;
+} */
+
+
+
+.timeSlotForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 8px;
+}
+
+.timeSlotForm .formBlock {
+    flex-basis: 100%;
+    padding: 0;
+}
+
+.timeSlotForm .formBlock button {
+    width: 50%;
+    /* margin : 1rem 0; */
+}
+
+.timeSlotForm .formBlock:nth-child(-n+3) {
+    border-right: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+.formBlock label {
+    display: block;
+    margin: .5px 0 0px 5px;
+}
+
+.formBlock input {
+    width: 100%;
+    border: none;
+    /* border-left: 1px solid black; */
+}
+
+
+.dataTable {
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    width: 100%;
+    /* overflow-x: scroll; */
+}
+
+.dataTable thead {
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+.dataTable tbody {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+.dataTable td {
+    text-align: center;
+}
+
+
+
+@media screen and (max-width : 992px) {}
+
+@media screen and (max-width : 768px) {}
+
+@media screen and (max-width : 576px) {
+
+    .searchContainer form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .searchContainer div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .searchContainer input {
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    .searchContainer button {
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    .timeSlotForm {
+        flex-direction: column;
+    }
+
+    .timeSlotForm .formBlock {
+        width: 90%;
+        margin: 1rem 0;
+    }
+
+    .timeSlotForm .formBlock button {
+        width: 90%;
+        /* margin : 1rem 0; */
+    }
+}

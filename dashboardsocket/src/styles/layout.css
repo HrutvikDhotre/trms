@@ -1,0 +1,50 @@
+.sidebar {
+    width: 20%;
+    position: fixed;
+    height: 100%;
+}
+
+.navBar {
+    position : fixed;
+    z-index: 100;
+    /* width: 100%; */
+}
+
+
+.flexSideBody {
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+/* button {
+    border: none;
+    background: none;
+}
+
+.navlinks {
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.navlinks:hover {
+    background-color: rgb(245, 243, 243);
+    color : black;
+} */
+
+
+@media screen and (max-width : 992px) {}
+
+@media screen and (max-width : 768px) {}
+
+@media screen and (max-width : 576px) {
+    .sidebar {
+        width: 60%;
+        z-index: 10000;
+    }
+  
+    .sideBody{
+        /* position : ; */
+        z-index: 100;
+    }
+}

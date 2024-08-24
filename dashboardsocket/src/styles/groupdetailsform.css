@@ -1,0 +1,109 @@
+/* GroupDetailsForm.css */
+.form-container {
+    padding: 20px;
+}
+
+.form-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    /* Center the text horizontally */
+}
+
+
+.added-groups {
+    margin-top: 20px;
+}
+
+.groups-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.groups-table th,
+.groups-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+/* Styles for the submit button */
+/* Styles for the submit button */
+button[name="submit-form-button"] {
+    /* background-color: #4CAF50; */
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /* Change display to block */
+    margin: 0 auto;
+    /* Center horizontally */
+    font-size: 16px;
+    margin-top: 20px;
+    /* Adjusted margin-top */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.grpdet-btn{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /* Change display to block */
+    margin: 0 auto;
+    /* Center horizontally */
+    font-size: 16px;
+    margin-top: 20px;
+    /* Adjusted margin-top */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* button[name="submit-form-button"]:hover {
+    background-color: #45a049;
+} */
+
+
+/* Styles for the delete button */
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
