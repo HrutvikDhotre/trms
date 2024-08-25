@@ -15,3 +15,5 @@ efficiency, BMCC TRMS empowers educators to thrive in their roles and
 maximize productivity.
 
 ![BMCC TRMS Logo](images/bmcc_trms_logo.PNG)
+
+Note: To get an idea of the website's design and functionality, please check the images folder.
