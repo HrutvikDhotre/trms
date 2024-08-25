@@ -13,3 +13,5 @@ and task automation, enabling educators to focus more on teaching and less
 on administrative burdens. With its user-friendly interface and emphasis on
 efficiency, BMCC TRMS empowers educators to thrive in their roles and
 maximize productivity.
+
+![BMCC TRMS Logo](images/bmcc_trms_logo.PNG)
