@@ -6,6 +6,8 @@ attendance tracking to lecture scheduling, BMCC TRMS automates tasks,
 increasing efficiency and saving valuable time for teachers. Users can
 effortlessly record attendance, generate PDF reports, manage lecture
 timetables, and book facilities with ease.
+
+
 Additionally, BMCC TRMS streamlines file management, group list generation,
 and task automation, enabling educators to focus more on teaching and less
 on administrative burdens. With its user-friendly interface and emphasis on
